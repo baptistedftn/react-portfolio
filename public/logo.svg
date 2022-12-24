@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 156.24 224.13"
+   viewBox="0 0 511.99998 511.99999"
    version="1.1"
    id="svg18"
-   sodipodi:docname="mt-logo.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   width="512"
+   height="512"
+   inkscape:export-filename="../src/assets/logo.svg"
+   inkscape:export-xdpi="44.957912"
+   inkscape:export-ydpi="44.957912"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -19,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="1.6898504"
-     inkscape:cx="52.075616"
-     inkscape:cy="99.1212"
+     inkscape:zoom="0.58185854"
+     inkscape:cx="-129.75662"
+     inkscape:cy="243.18626"
      inkscape:window-width="1360"
      inkscape:window-height="684"
      inkscape:window-x="0"
@@ -31,8 +36,8 @@
   <defs
      id="defs4">
     <rect
-       x="-55.019468"
-       y="65.696256"
+       x="-55.019466"
+       y="65.696259"
        width="121.43203"
        height="142.0347"
        id="rect912" />
@@ -42,10 +47,16 @@
   <g
      id="Layer_2"
      data-name="Layer 2">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.02203"
+       id="path1628"
+       cx="256"
+       cy="256"
+       r="234.88635" />
     <g
        id="Layer_5"
        data-name="Layer 5"
-       transform="translate(-8.5623651,32.321193)"
+       transform="matrix(1.9164066,0,0,1.9164066,89.083232,93.886774)"
        style="fill:#333333">
       <rect
          class="cls-1"
@@ -61,23 +72,23 @@
     <text
        xml:space="preserve"
        id="text910"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect912);fill:#333333;fill-opacity:1;stroke:none"
-       transform="matrix(4.817766,0,0,4.817766,270.4351,-335.41927)"><tspan
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect912);display:inline;fill:#333333;fill-opacity:1;stroke:none"
+       transform="matrix(9.232799,0,0,9.232799,623.75582,-610.85347)"><tspan
          x="-55.019531"
          y="102.44789"
-         id="tspan883"><tspan
+         id="tspan2470"><tspan
            style="font-family:A-Signature;-inkscape-font-specification:A-Signature"
-           id="tspan881">B</tspan></tspan></text>
+           id="tspan2468">B</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:152.06px;line-height:1.25;font-family:sans-serif;fill:#333333;fill-opacity:1;stroke:none;stroke-width:3.8015"
-       x="78.96978"
-       y="215.72462"
+       style="font-style:normal;font-weight:normal;font-size:291.409px;line-height:1.25;font-family:sans-serif;fill:#333333;fill-opacity:1;stroke:none;stroke-width:7.28522"
+       x="256.83041"
+       y="445.36234"
        id="text968"><tspan
          sodipodi:role="line"
          id="tspan966"
-         x="78.96978"
-         y="215.72462"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:A-Signature;-inkscape-font-specification:A-Signature;stroke-width:3.8015;fill:#333333">D</tspan></text>
+         x="256.83041"
+         y="445.36234"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:A-Signature;-inkscape-font-specification:A-Signature;fill:#333333;stroke-width:7.28522">D</tspan></text>
   </g>
 </svg>

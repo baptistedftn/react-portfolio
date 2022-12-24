@@ -1,29 +1,24 @@
 {
+    "meta": { "theme": "stackoverflow" },
     "basics": {
         "name": "Baptiste Desfontaines",
         "label": "Engineering student",
+        "picture": "https://i.imgur.com/TBLe0Ni.jpeg",
         "email": "baptistedesfontaines@pm.me",
         "phone": "+33 6 74 42 48 04",
-        "picture": "mt.png",
         "x_title": "Hello, I'm",
         "job1": "Student",
         "job2": "Developer",
         "description": "Hello! I'm Baptiste",
         "summary": "",
-        "keywords": "personal,website,portfolio,template,webdev,web,developer,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://baptistedftn.ml",
+        "keywords": "personal,website,portfolio,template,webdev,web,developer,react,github",
+        "url": "https://baptiste.website",
         "location": {
             "city": "Lille",
             "country": "France",
             "countryCode": "FR"
         },
         "profiles": [
-            {
-                "network": "Mail",
-                "username": "baptistedesfontaines@pm.me",
-                "url": "mailto:baptistedesfontaines@pm.me",
-                "x_icon": "fas fa-at"
-            },
             {
                 "network": "LinkedIn",
                 "username": "baptistedftn",
@@ -35,12 +30,6 @@
                 "username": "baptistedftn",
                 "url": "https://github.com/baptistedftn",
                 "x_icon": "fab fa-github"
-            },
-            {
-                "network": "GitLab",
-                "username": "baptistedftn",
-                "url": "https://gitlab.com/baptistedftn",
-                "x_icon": "fab fa-gitlab"
             },
             {
                 "network": "Discord",
@@ -67,6 +56,24 @@
     "volunteer": [
     ],
     "education": [
+    {
+      "institution": "ESME Sudria",
+      "area": "Diplôme",
+      "studyType": "Ingénieur",
+      "startDate": "2022-09-30",
+      "endDate": "2027-07-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "La Malassise",
+      "area": "Diplôme",
+      "studyType": "Baccalauréat",
+      "startDate": "2019-09-30",
+      "endDate": "2022-12-31",
+      "score": "Assez bien",
+      "courses": []
+    }
     ],
     "awards": [
     ],
@@ -76,7 +83,7 @@
         {
             "name": "Web Development",
             "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["HTML", "CSS", "Javascript", "Python"]
         }
     ],
     "languages": [
@@ -90,13 +97,17 @@
         },
         {
             "language": "German",
-            "fluency": "Good knowledge"
+            "fluency": "Knowledge"
         }
     ],
     "interests": [
         {
             "name": "Photography",
             "keywords": ["Astronomy", "Landscapes"]
+        },
+        {
+            "name": "AI",
+            "keywords": ["Artificial Intelligence", "Regression", "Deep Learning", "TensorFlow"]
         }
     ],
     "references": [

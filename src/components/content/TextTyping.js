@@ -10,7 +10,7 @@ export const Type = (props) => {
             strings: props.texts,
             typeSpeed: 20,
             backSpeed: 2,
-            loop: props.loop ? true : false
+            // loop: props.loop ? true : false
         };
         typed.current = new Typed(el.current, options);
 

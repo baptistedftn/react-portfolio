@@ -21,10 +21,27 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello!";
-  const aboutme = `<span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> cd /home/baptiste
-  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> cat life.txt<br/><br/>
-  <p>Hey There! My name is Baptiste</p><p>I'm a student in engineering school in Lille and a saxophonist 🎷</p>
-  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> exit`
+  const aboutme = `
+  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span>cd /home/<!-- kjsdfhkjdhsfkjdshfkj -->baptiste<br/>
+  <span id="a">root@baptiste</span>:<span id="b">/www/website</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->life.txt<br/><br/>
+  
+  Hey There! My name is Baptiste
+  <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+  <p>I'm a student in engineering school in Lille and a saxophonist 🎷 </p>
+  <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
+  <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+  <p> You can follow me on</p>
+  <a href="//instagram.com/baptistedftn">_instamgam</a>
+  <p></p>
+  <a href="//github.com/baptistedftn">_github</a>
+  <p>&amp;</p>
+  <a href="//linkedin.com/in/baptistedftn">_linkedin</a>
+  <p>
+  You can also contact me by email <!-- slightdelayhere-->, at <a href="mailto:baptistedesfontaines@pm.me">baptistedesfontaines@pm.me</a>
+  
+  </p>
+  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> exit
+  `
   return (
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
@@ -42,9 +59,7 @@ export const About = () => {
             <Typography component='h2' variant="h5">
               <TextDecrypt text={`${greetings}`} />
             </Typography>
-            <p className="console">
-              <Type texts={[aboutme]} loop={true} />
-            </p>
+            <Type texts={[aboutme]} className="console" />
             <a href="#contact" className="contact-btn">
               <i className="fas fa-terminal"></i>
               <Typography component='span'> Get in touch.</Typography>

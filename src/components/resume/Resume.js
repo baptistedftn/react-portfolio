@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/Resume.pdf';
+// import ResumePDF from './../../assets/Resume.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';
@@ -30,7 +30,7 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      href= {`${ResumePDF}`}
+      // href= {`${ResumePDF}`}
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}

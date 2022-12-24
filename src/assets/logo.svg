@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 469.77272 469.7727"
+   version="1.1"
+   id="svg18"
+   width="469.77274"
+   height="469.77271"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4">
+    <rect
+       x="-55.019466"
+       y="65.696259"
+       width="121.43203"
+       height="142.0347"
+       id="rect912" />
+    <style
+       id="style2">.cls-1{fill:#1d1d1b;}</style>
+  </defs>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     transform="translate(-21.113648,-21.113648)">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.02203"
+       id="path1628"
+       cx="256"
+       cy="256"
+       r="234.88635" />
+    <g
+       id="Layer_5"
+       data-name="Layer 5"
+       transform="matrix(1.9164066,0,0,1.9164066,89.083232,93.886774)"
+       style="fill:#333333">
+      <rect
+         class="cls-1"
+         x="90.599998"
+         y="-17.08"
+         width="9.8999996"
+         height="201.44"
+         rx="3.75"
+         transform="rotate(35.24,95.562598,83.651983)"
+         id="rect12"
+         style="fill:#333333" />
+    </g>
+    <text
+       xml:space="preserve"
+       id="text910"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect912);display:inline;fill:#333333;fill-opacity:1;stroke:none"
+       transform="matrix(9.232799,0,0,9.232799,623.75582,-610.85347)"><tspan
+         x="-55.019531"
+         y="102.44789"
+         id="tspan2452"><tspan
+           style="font-family:A-Signature;-inkscape-font-specification:A-Signature"
+           id="tspan2450">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:291.409px;line-height:1.25;font-family:sans-serif;fill:#333333;fill-opacity:1;stroke:none;stroke-width:7.28522"
+       x="256.83041"
+       y="445.36234"
+       id="text968"><tspan
+         id="tspan966"
+         x="256.83041"
+         y="445.36234"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:A-Signature;-inkscape-font-specification:A-Signature;fill:#333333;stroke-width:7.28522">D</tspan></text>
+  </g>
+</svg>
