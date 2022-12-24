@@ -1,113 +1,76 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "name": "Baptiste Desfontaines",
+        "label": "Engineering student",
+        "email": "baptistedesfontaines@pm.me",
+        "phone": "+33 6 74 42 48 04",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
-        "job1": "Web",
+        "job1": "Student",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "description": "Hello! I'm Baptiste",
+        "summary": "",
+        "keywords": "personal,website,portfolio,template,webdev,web,developer,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "https://baptistedftn.ml",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Lille",
+            "country": "France",
+            "countryCode": "FR"
         },
         "profiles": [
             {
-                "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
-                "x_icon": "fab fa-google"
+                "network": "Mail",
+                "username": "baptistedesfontaines@pm.me",
+                "url": "mailto:baptistedesfontaines@pm.me",
+                "x_icon": "fas fa-at"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "baptistedftn",
+                "url": "https://www.linkedin.com/in/baptistedftn/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "baptistedftn",
+                "url": "https://github.com/baptistedftn",
                 "x_icon": "fab fa-github"
             },
             {
                 "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
+                "username": "baptistedftn",
+                "url": "https://gitlab.com/baptistedftn",
                 "x_icon": "fab fa-gitlab"
             },
             {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
                 "network": "Discord",
-                "username": "taniyow#9142",
+                "username": "baptistedftn#3274",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
+            },
+            {
+                "network": "Instagram",
+                "username": "baptistedftn",
+                "url": "https://instagram.com/baptistedftn",
+                "x_icon": "fab fa-instagram"
+            },
+            {
+                "network": "Snapchat",
+                "username": "baptistedftn",
+                "url": "https://www.snapchat.com/add/baptistedftn",
+                "x_icon": "fab fa-snapchat"
             }
         ]
     },
     "work": [
-        {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
-        }
     ],
     "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
     ],
     "education": [
-        {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
     ],
     "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
     ],
     "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
     ],
     "skills": [
         {
@@ -118,7 +81,7 @@
     ],
     "languages": [
         {
-            "language": "German",
+            "language": "French",
             "fluency": "Native speaker"
         },
         {
@@ -126,20 +89,16 @@
             "fluency": "Fluent speaker"
         },
         {
-            "language": "French",
+            "language": "German",
             "fluency": "Good knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "name": "Photography",
+            "keywords": ["Astronomy", "Landscapes"]
         }
     ],
     "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference..."
-        }
     ]
 }

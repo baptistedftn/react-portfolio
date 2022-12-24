@@ -8,6 +8,7 @@ import { FirstName, LastName } from "../../utils/getName";
 import './About.css';
 
 import profile from '../../assets/profile.png';
+import { Type } from "../content/TextTyping";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -19,18 +20,17 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
-  const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
-
+  const greetings = "Hello!";
+  const aboutme = `<span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> cd /home/baptiste
+  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> cat life.txt<br/><br/>
+  <p>Hey There! My name is Baptiste</p><p>I'm a student in engineering school in Lille and a saxophonist 🎷</p>
+  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> exit`
   return (
     <section id="about">
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="about">
           <div className="_img"
-            style={{ 
+            style={{
               background: "url(" + profile + ")",
               backgroundSize: 'contain',
               backgroundPosition: 'center',
@@ -42,12 +42,12 @@ export const About = () => {
             <Typography component='h2' variant="h5">
               <TextDecrypt text={`${greetings}`} />
             </Typography>
-            <p className="aboutme">
-              {aboutme}
+            <p className="console">
+              <Type texts={[aboutme]} loop={true} />
             </p>
             <a href="#contact" className="contact-btn">
               <i className="fas fa-terminal"></i>
-              <Typography component='span'> Send me a message.</Typography>
+              <Typography component='span'> Get in touch.</Typography>
             </a>
           </div>
         </div>

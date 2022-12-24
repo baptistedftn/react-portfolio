@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { LogoLink } from '../components/logo/LogoLink';
 import { Content } from '../components/content/Content';
@@ -12,6 +13,7 @@ import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
+import { Today } from '../components/content/Today'
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -37,10 +39,10 @@ export const Home = () => {
         <Hidden mdUp>
           <SpeedDials />
         </Hidden>
-        <Resume />
+        {/* <Resume /> */}
       </div>
       <SideNavbar />
-      <Works />
+      {/* <Works /> */}
       <About />
       <Contact />
     </>
