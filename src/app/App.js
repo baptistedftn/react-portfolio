@@ -1,30 +1,32 @@
-import React, { lazy } from "react";
+import React, { Suspense, lazy } from 'react'
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetMeta } from "./HelmetMeta";
 import { ThemeProvider } from "../components/theme/ThemeProvider";
 import { CssBaseline } from "@material-ui/core";
 
 import { Home } from "../pages/Home";
-import { Resume } from "../pages/Resume";
-import { Qr } from '../pages/Qr'
-// const Resume = lazy(() => import("../pages/Resume"));
-const PageNotFound = lazy(() => import("../pages/PageNotFound"));
+import { PageNotFound } from '../pages/PageNotFound'
+
+const Qr = lazy(() => import('../pages/Qr'))
+const Resume = lazy(() => import("../pages/Resume"))
 
 export const App = () => {
 
   return (
     <ThemeProvider>
       <CssBaseline />
-      <Router>
-        <HelmetMeta />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/qr" component={Qr} />
-          <Route path="/resume" component={Resume} />
-          <Route path="*" component={PageNotFound} />
-        </Switch>
-      </Router>
+      <HelmetMeta />
+      <Suspense fallback={<div>Loading...</div>}>
+        <BrowserRouter >
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/qr" element={<Qr />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </Suspense>
     </ThemeProvider>
   );
 };

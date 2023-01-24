@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useEffect } from 'react'
+const Resume = () => {
+    useEffect(() => {
+        window.location.href = 'https://registry.jsonresume.org/baptistedftn'
+    }, [])
 
-export const Resume = () => {
-    return <div>Resume...</div>;
-};
+    return (
+        <>
+            <p>Redirecting...</p>
+        </>
+    )
+}
+
+export default Resume

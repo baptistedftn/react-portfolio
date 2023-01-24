@@ -13,7 +13,6 @@ import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
-import { Today } from '../components/content/Today'
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -32,17 +31,17 @@ export const Home = () => {
         <DisplacementSphere />
         <LogoLink />
         <Content />
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
         <Hidden smDown>
           <SocialIcons />
         </Hidden>
         <Hidden mdUp>
           <SpeedDials />
         </Hidden>
-        {/* <Resume /> */}
+        <Resume />
       </div>
       <SideNavbar />
-      {/* <Works /> */}
+      <Works />
       <About />
       <Contact />
     </>

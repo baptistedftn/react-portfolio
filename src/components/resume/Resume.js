@@ -1,11 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Link } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
+import { Link } from 'react-router-dom'
 import { TextDecrypt } from '../content/TextDecrypt';
-// import ResumePDF from './../../assets/Resume.pdf';
-import {
-  ResumeIcon
-} from '../content/ResumeButton';
+import { ChevronLeftTwoTone } from "@material-ui/icons";
+
 
 const useStyles = makeStyles((theme) => ({
   footerText: {
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     flexWrap: 'wrap',
   },
-  
+
 }));
 
 export const Resume = () => {
@@ -30,12 +29,10 @@ export const Resume = () => {
     <Link
       color='inherit'
       underline='none'
-      // href= {`${ResumePDF}`}
-      target='_blank'
-      rel='noopener noreferrer'
+      to={'/resume'}
       className={classes.footerText}
     >
-      <ResumeIcon />
+      <ChevronLeftTwoTone />
       <Typography component='span'>
         <TextDecrypt text={' Resume'} />
       </Typography>

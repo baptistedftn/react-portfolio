@@ -22,7 +22,7 @@ export const About = () => {
   const classes = useStyles();
   const greetings = "Hello!";
   const aboutme = `
-  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span>cd /home/<!-- kjsdfhkjdhsfkjdshfkj -->baptiste<br/>
+  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> cd /www/<!-- kjsdfhkjdhsfkjdshfkj -->website<br/>
   <span id="a">root@baptiste</span>:<span id="b">/www/website</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->life.txt<br/><br/>
   
   Hey There! My name is Baptiste
@@ -31,7 +31,7 @@ export const About = () => {
   <!-- laglaglaglaglaglaglaglaglaglaglaglag -->
   <!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
   <p> You can follow me on</p>
-  <a href="//instagram.com/baptistedftn">_instamgam</a>
+  <a href="//instagram.com/baptistedftn">_instagram</a>
   <p></p>
   <a href="//github.com/baptistedftn">_github</a>
   <p>&amp;</p>
@@ -40,7 +40,7 @@ export const About = () => {
   You can also contact me by email <!-- slightdelayhere-->, at <a href="mailto:baptistedesfontaines@pm.me">baptistedesfontaines@pm.me</a>
   
   </p>
-  <span id="a">root@baptiste</span>:<span id="b">~</span><span id="c">$</span> exit
+  <span id="a">root@baptiste</span>:<span id="b">/www/website</span> exit
   `
   return (
     <section id="about">
@@ -59,11 +59,8 @@ export const About = () => {
             <Typography component='h2' variant="h5">
               <TextDecrypt text={`${greetings}`} />
             </Typography>
+            <a  href="#contact" className="contact-btn"><i className="fas fa-terminal"></i>Get in touch.</a>
             <Type texts={[aboutme]} className="console" />
-            <a href="#contact" className="contact-btn">
-              <i className="fas fa-terminal"></i>
-              <Typography component='span'> Get in touch.</Typography>
-            </a>
           </div>
         </div>
       </Container>

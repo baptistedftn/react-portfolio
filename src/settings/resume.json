@@ -1,61 +1,61 @@
 {
-    "meta": { "theme": "stackoverflow" },
-    "basics": {
-        "name": "Baptiste Desfontaines",
-        "label": "Engineering student",
-        "picture": "https://i.imgur.com/TBLe0Ni.jpeg",
-        "email": "baptistedesfontaines@pm.me",
-        "phone": "+33 6 74 42 48 04",
-        "x_title": "Hello, I'm",
-        "job1": "Student",
-        "job2": "Developer",
-        "description": "Hello! I'm Baptiste",
-        "summary": "",
-        "keywords": "personal,website,portfolio,template,webdev,web,developer,react,github",
-        "url": "https://baptiste.website",
-        "location": {
-            "city": "Lille",
-            "country": "France",
-            "countryCode": "FR"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "baptistedftn",
-                "url": "https://www.linkedin.com/in/baptistedftn/",
-                "x_icon": "fab fa-linkedin-in"
-            },
-            {
-                "network": "GitHub",
-                "username": "baptistedftn",
-                "url": "https://github.com/baptistedftn",
-                "x_icon": "fab fa-github"
-            },
-            {
-                "network": "Discord",
-                "username": "baptistedftn#3274",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
-            },
-            {
-                "network": "Instagram",
-                "username": "baptistedftn",
-                "url": "https://instagram.com/baptistedftn",
-                "x_icon": "fab fa-instagram"
-            },
-            {
-                "network": "Snapchat",
-                "username": "baptistedftn",
-                "url": "https://www.snapchat.com/add/baptistedftn",
-                "x_icon": "fab fa-snapchat"
-            }
-        ]
+  "meta": {
+    "theme": "stackoverflow"
+  },
+  "basics": {
+    "name": "Baptiste Desfontaines",
+    "label": "Engineering student",
+    "picture": "https://i.imgur.com/TBLe0Ni.jpeg",
+    "email": "baptistedesfontaines@pm.me",
+    "phone": "+33 6 74 42 48 04",
+    "x_title": "Hello, I'm",
+    "job1": "Student",
+    "job2": "Developer",
+    "description": "Hello! I'm Baptiste",
+    "summary": "",
+    "keywords": "personal,website,portfolio,template,webdev,web,developer,react,github",
+    "url": "https://baptiste.website",
+    "location": {
+      "city": "Lille",
+      "country": "France",
+      "countryCode": "FR"
     },
-    "work": [
-    ],
-    "volunteer": [
-    ],
-    "education": [
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "baptistedftn",
+        "url": "https://www.linkedin.com/in/baptistedftn/",
+        "x_icon": "fab fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "baptistedftn",
+        "url": "https://github.com/baptistedftn",
+        "x_icon": "fab fa-github"
+      },
+      {
+        "network": "Discord",
+        "username": "baptistedftn#3274",
+        "url": "https://discord.com",
+        "x_icon": "fab fa-discord"
+      },
+      {
+        "network": "Instagram",
+        "username": "baptistedftn",
+        "url": "https://instagram.com/baptistedftn",
+        "x_icon": "fab fa-instagram"
+      },
+      {
+        "network": "Snapchat",
+        "username": "baptistedftn",
+        "url": "https://www.snapchat.com/add/baptistedftn",
+        "x_icon": "fab fa-snapchat"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
     {
       "institution": "ESME Sudria",
       "area": "Diplôme",
@@ -74,42 +74,52 @@
       "score": "Assez bien",
       "courses": []
     }
-    ],
-    "awards": [
-    ],
-    "publications": [
-    ],
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript", "Python"]
-        }
-    ],
-    "languages": [
-        {
-            "language": "French",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "Fluent speaker"
-        },
-        {
-            "language": "German",
-            "fluency": "Knowledge"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Photography",
-            "keywords": ["Astronomy", "Landscapes"]
-        },
-        {
-            "name": "AI",
-            "keywords": ["Artificial Intelligence", "Regression", "Deep Learning", "TensorFlow"]
-        }
-    ],
-    "references": [
-    ]
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Python"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "Knowledge"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Photography",
+      "keywords": [
+        "Astronomy",
+        "Landscapes"
+      ]
+    },
+    {
+      "name": "AI",
+      "keywords": [
+        "Artificial Intelligence",
+        "Regression",
+        "Deep Learning",
+        "TensorFlow"
+      ]
+    }
+  ],
+  "references": []
 }
