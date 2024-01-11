@@ -34,9 +34,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "scp -r ./build ssh.baptiste.website:/var/www/baptiste_web"
   },
   "reactSnapshot": {
     "exclude": [
